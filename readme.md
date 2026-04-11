@@ -29,6 +29,8 @@ PCI-E bifurcation allows converting the x16 slot to a x4x4x4x4 slot.
 This can be used with a PCI-E card (like [ASUS Hyper M.2 x16 Gen5 Card](https://www.asus.com/motherboards-components/motherboards/accessories/hyper-m-2-x16-gen5-card/))
 with up to 4x M2 NVME PCI-E 5.0 SSDs.
 
+:warning: **A setting is now directly available in the newer version's UEFI interface. This method is no longer required.**
+
 First, we need to set the `Quick Switch` option to `Manual`:
 ```shell
 setup_var.efi 0x0 0x1 -n AsusCpmDxioTopology
